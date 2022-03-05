@@ -170,6 +170,7 @@ h2 {
 .left {
     background-color: #1e1d1d;
     border-radius: 10px;
+    position: relative;
 }
 
 .right {
@@ -235,12 +236,23 @@ form {
 }
 
 .link:hover {
-    text-decoration: none;
     color: #f0c414;
+    text-decoration: none;
+}
+
+.contact-us {
+    margin-top: 50px;
+}
+
+.kanan {
+    margin-left: 230px;
 }
 
 .contact {
     color: white;
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 

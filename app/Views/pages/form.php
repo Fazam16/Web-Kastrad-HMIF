@@ -28,23 +28,19 @@
                         </div>
                     </div>
 
-                    <div class="row mt-3">
-                        <div class="col-md-12 contact">
-                            <ul>
-                                <li class="jarak">
-                                    <a href="https://instagram.com/hmif.unsri?utm_medium=copy_link" class="link">
-                                        <i class="bi bi-instagram"></i>
-                                        hmif.unsri
-                                    </a>
-                                </li>
-                                <li class="jarak">
+                    <div class="row mt-3" style="padding-left: 15px;">
+                        <div class="contact-us">
+                            <div class="col-md-6 contact">
+                                <a href="https://instagram.com/hmif.unsri?utm_medium=copy_link" class="link">
+                                    <i class="bi bi-instagram"></i> hmif.unsri</a>
+                            </div>
+                            <div class="col-md-6 contact">
+                                <div class="kanan">
                                     <a href="https://instagram.com/kastrad.hmif.unsri?utm_medium=copy_link"
                                         class="link">
-                                        <i class="bi bi-instagram"></i>
-                                        kastrad.hmif.unsri
-                                    </a>
-                                </li>
-                            </ul>
+                                        <i class="bi bi-instagram"></i> kastrad.hmif.unsri</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -90,11 +86,11 @@
                         </div>
                         <div class="mb-3">
                             <div class="row">
-                                <div class="col-md-6 mt-2">
-                                    <label for="email">Email</label>
+                                <div class="col-md-6">
+                                    <label for="email mt-1">Email</label>
                                     <input type="email" class="form-control" name="email" required>
                                 </div>
-                                <div class="col-md-6 mt-2">
+                                <div class="col-md-6 mt-1">
                                     <label for="wa">No. HP</label>
                                     <input type="number" class="form-control" name="wa" required>
                                 </div>
@@ -102,7 +98,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="aspirasi">Aspirasi</label>
-                            <textarea name="aspirasi" id="aspirasi" cols="30" rows="6" class="form-control"
+                            <textarea name="aspirasi" id="aspirasi" cols="30" rows="5" class="form-control"
                                 required></textarea>
                         </div>
                         <div class="mb-3">
