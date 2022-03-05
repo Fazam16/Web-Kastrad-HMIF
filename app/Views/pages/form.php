@@ -27,22 +27,24 @@
                             <h2>Kastrad</h2>
                         </div>
                     </div>
+                    <br><br><br><br><br><br>
+                    <div class="home">
+                        <a href="/">
+                            <button class="btn buttonhome">Home</button>
+                        </a>
+                    </div>
 
-                    <div class="row mt-3" style="padding-left: 15px;">
-                        <div class="contact-us">
-                            <div class="col-md-6 contact">
-                                <a href="https://instagram.com/hmif.unsri?utm_medium=copy_link" class="link">
-                                    <i class="bi bi-instagram"></i> hmif.unsri</a>
-                            </div>
-                            <div class="col-md-6 contact">
-                                <div class="kanan">
-                                    <a href="https://instagram.com/kastrad.hmif.unsri?utm_medium=copy_link"
-                                        class="link">
-                                        <i class="bi bi-instagram"></i> kastrad.hmif.unsri</a>
-                                </div>
-                            </div>
+                    <div class="contact-us">
+                        <div class="bawah">
+                            <a href="https://instagram.com/hmif.unsri?utm_medium=copy_link" class="link">
+                                <i class="bi bi-instagram"></i> hmif.unsri
+                            </a>
+                            <a href="https://instagram.com/kastrad.hmif.unsri?utm_medium=copy_link" class="link g">
+                                <i class="bi bi-instagram"></i> kastrad.hmif.unsri
+                            </a>
                         </div>
                     </div>
+
                 </div>
 
                 <div class="col-md-8 right">

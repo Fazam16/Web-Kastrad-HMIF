@@ -12,6 +12,8 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+
+    <link rel="icon" href="img/kastrad.png">
     <link href="<?= $css; ?>" rel="stylesheet">
     <title><?= $title; ?></title>
 </head>

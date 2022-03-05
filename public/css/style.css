@@ -233,6 +233,9 @@ form {
 .link {
     color: white;
     text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .link:hover {
@@ -242,18 +245,41 @@ form {
 
 .contact-us {
     margin-top: 50px;
+    text-align: center;
 }
 
-.kanan {
-    margin-left: 230px;
-}
-
-.contact {
+.find {
     color: white;
-    display: inline-block;
+    font-size: 30pt;
+}
+
+.bawah {
+    bottom: 15px;
     position: absolute;
-    bottom: 20px;
+    padding-left: 10px;
+}
+
+.g {
+    margin-left: 130px;
+}
+
+.home {
+    text-align: center;
+}
+
+.buttonhome {
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 60px;
+    width: 10pc;
+    font-size: 15pt;
+    margin-bottom: 50px;
+    background-color: white;
+    box-shadow: rgba(255, 255, 255, 0.802) 0px 5px 15px;
+}
+
+.buttonhome:hover {
+    background-color: #d6b533;
+    box-shadow: rgba(255, 255, 255, 0.802) 0px 5px 15px;
 }
 
 .jarak {

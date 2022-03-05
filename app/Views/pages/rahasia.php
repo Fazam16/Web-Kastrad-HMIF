@@ -12,6 +12,7 @@
         <th>Email</th>
         <th>No. WA</th>
         <th>Aspirasi</th>
+        <th>tanggal</th>
     </tr>
 
     <?php 
@@ -27,6 +28,7 @@
         <td> <?= $data['email']; ?> </td>
         <td> <?= $data['nomor']; ?> </td>
         <td> <?= $data['aspirasi']; ?> </td>
+        <td> <?= $data['tanggal']; ?> </td>
     </tr>
     <?php 
         }
