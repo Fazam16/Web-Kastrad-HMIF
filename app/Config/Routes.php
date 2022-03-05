@@ -32,6 +32,8 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Kastrad::index');
+$routes->get('/form', 'Kastrad::form');
+$routes->get('/rahasiakastrad', 'Kastrad::rahasiakastrad');
 
 /*
  * --------------------------------------------------------------------
