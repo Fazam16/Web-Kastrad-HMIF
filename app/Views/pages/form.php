@@ -26,7 +26,22 @@
                         <div class="about">
                             <h2>Kastrad</h2>
                         </div>
-                        <br>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 contact">
+                            <ul>
+                                <li>
+                                    <a href="https://instagram.com/hmif.unsri?utm_medium=copy_link"><i
+                                            class="bi bi-instagram"></i>@hmif.unsri</a>
+                                </li>
+                                <li>
+                                    <a href="https://instagram.com/kastrad.hmif.unsri?utm_medium=copy_link">
+                                        @kastrad.hmif.unsri
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
