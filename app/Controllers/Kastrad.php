@@ -6,7 +6,7 @@ use App\Models\InformaticsCaringModels;
 
 class Kastrad extends BaseController
 {
-
+  
     protected $informaticsModels;
 
     public function __construct()
@@ -37,30 +37,30 @@ class Kastrad extends BaseController
       $tanggal = date('d-m-Y');
                                  
 
-    $this->informaticsModels->save([
-    'nama' => $this->request->getPost('nama'),
-    'nim' => $this->request->getPost('nim'),
-    'kelas' => $this->request->getPost('kelas'),
-    'angkatan' => $this->request->getPost('angkatan'),
-    'email' => $this->request->getPost('email'),
-    'nomor' => $this->request->getPost('wa'),
-    'aspirasi' => $this->request->getPost('aspirasi'),
-    'nama' => $this->request->getPost('nama'),
-    'tanggal' => $tanggal
-    ]);
+      $this->informaticsModels->save([
+      'nama' => $this->request->getPost('nama'),
+      'nim' => $this->request->getPost('nim'),
+      'kelas' => $this->request->getPost('kelas'),
+      'angkatan' => $this->request->getPost('angkatan'),
+      'email' => $this->request->getPost('email'),
+      'nomor' => $this->request->getPost('wa'),
+      'aspirasi' => $this->request->getPost('aspirasi'),
+      'nama' => $this->request->getPost('nama'),
+      'tanggal' => $tanggal
+      ]);
 
-    return redirect()->to('kastrad');
+      return redirect()->to('/');
     }
 
     public function rahasiaKastrad() {
 
-    $data = [
-    'css' => '../css/style.css',
-    'title' => 'Rahasia Oii',
-    'mahasiswa' => $this->informaticsModels->getData()
-    ];
+      $data = [
+      'css' => '../css/style.css',
+      'title' => 'Rahasia Oii',
+      'mahasiswa' => $this->informaticsModels->getData()
+      ];
 
-    return view('pages/rahasia', $data);
+      return view('pages/rahasia', $data);
   }
 
 }
