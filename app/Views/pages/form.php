@@ -28,16 +28,20 @@
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div class="row mt-3">
                         <div class="col-md-12 contact">
                             <ul>
-                                <li>
-                                    <a href="https://instagram.com/hmif.unsri?utm_medium=copy_link"><i
-                                            class="bi bi-instagram"></i>@hmif.unsri</a>
+                                <li class="jarak">
+                                    <a href="https://instagram.com/hmif.unsri?utm_medium=copy_link" class="link">
+                                        <i class="bi bi-instagram"></i>
+                                        hmif.unsri
+                                    </a>
                                 </li>
-                                <li>
-                                    <a href="https://instagram.com/kastrad.hmif.unsri?utm_medium=copy_link">
-                                        @kastrad.hmif.unsri
+                                <li class="jarak">
+                                    <a href="https://instagram.com/kastrad.hmif.unsri?utm_medium=copy_link"
+                                        class="link">
+                                        <i class="bi bi-instagram"></i>
+                                        kastrad.hmif.unsri
                                     </a>
                                 </li>
                             </ul>
