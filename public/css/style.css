@@ -1,0 +1,227 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    background-color: #ECECEC;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.style {
+    border: 3px solid black;
+}
+
+.wrap {
+    padding: 3px;
+    font-family: rog;
+}
+
+h1 {
+    font-size: 40pt;
+    line-height: 40px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 35px;
+    text-align: center;
+    text-shadow: 5px 4px 3px gray;
+}
+
+h2 {
+    font-family: rog;
+    font-size: 40pt;
+    color: white;
+}
+
+.about {
+    text-align: center;
+}
+
+.left {
+    background-color: #1e1d1d;
+    border-radius: 10px;
+}
+
+.right {
+    padding: 40px 50px 20px 50px;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button1 {
+    text-align: right;
+}
+
+.submit {
+    background-color: #d6b533;
+    margin-top: -10px;
+}
+
+.adhigana {
+    margin-left: -20px;
+    margin-top: -5px;
+}
+
+.logo {
+    margin-top: -10px;
+}
+
+.submit:hover {
+    background-color: #f0c414;
+}
+
+.logo-kastrad {
+    text-align: center;
+}
+
+#kastrad-logo {
+    width: 5cm;
+}
+
+.pernyataan {
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+@font-face {
+    font-family: rog;
+    src: url(ROGFontsv1.6-Regular.ttf);
+}
