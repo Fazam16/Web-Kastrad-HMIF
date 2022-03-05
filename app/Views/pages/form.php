@@ -18,14 +18,16 @@
                             </div>
                         </div>
                     </nav>
-                    <div class="logo-kastrad">
-                        <img src="/img/kastrad.png" alt="" id="kastrad-logo">
+                    <div class="card">
+                        <br>
+                        <div class="logo-kastrad">
+                            <img src="/img/kastrad.png" alt="" id="kastrad-logo">
+                        </div>
+                        <div class="about">
+                            <h2>Kastrad</h2>
+                        </div>
+                        <br>
                     </div>
-                    <div class="about">
-                        <h2>Kastrad</h2>
-                    </div>
-                    <br><br><br>
-                    <i class="fa-brands fa-instagram"></i>Instagram
                 </div>
 
                 <div class="col-md-8 right">
