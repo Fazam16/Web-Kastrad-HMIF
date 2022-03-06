@@ -49,7 +49,9 @@ class Kastrad extends BaseController
       'tanggal' => $tanggal
       ]);
 
-      return redirect()->to('/');
+      session()->setFlashdata('success', 'Data berhasil ditambahkan #hidupmahasiswa');
+
+      return redirect()->to('/form');
     }
 
     public function rahasiaKastrad() {

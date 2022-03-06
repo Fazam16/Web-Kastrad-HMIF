@@ -27,8 +27,17 @@
                             <h2>Kastrad</h2>
                         </div>
                     </div>
-                    <br><br><br><br><br><br>
                     <div class="home">
+
+                        <?php 
+                            if(session()->getFlashdata('success')) {
+                        ?>
+                        <div class="alert alert-success" role="alert">
+                            <?= session()->getFlashdata('success'); ?>
+                        </div>
+                        <?php
+                            }
+                        ?>
                         <a href="/">
                             <button class="btn buttonhome">Home</button>
                         </a>
