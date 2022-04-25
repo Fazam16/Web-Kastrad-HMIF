@@ -17,7 +17,7 @@ class Kastrad extends BaseController
     public function index()
     {
       $data = [
-        'css' => '../css/style.css',
+        'css' => '../css/output.css',
         'title' => 'Website Kastrad HMIF Unsri Kabinet Adhigana'
       ];
       return view('/pages/index', $data);

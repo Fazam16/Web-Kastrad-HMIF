@@ -2,5 +2,5 @@
 
 <?= $this->section('content'); ?>
 
-<a href="/form">button</a>
+<h1 class="mt-3">button</h1>
 <?= $this->endSection(); ?>
